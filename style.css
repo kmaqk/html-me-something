@@ -1,0 +1,41 @@
+#header {
+    text-align: center;
+}
+
+#container {
+    margin: 10; 
+    border: 1px; 
+    float: left;
+    padding: 30px;
+    position: relative 
+}
+
+#imgLeshan {
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+
+#imgSeoul {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+#imgEgypt {
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+
+#imgPeru {
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+#imgAntelope {
+    float: left;
+    height: 50%;
+    width: 50%;
+}

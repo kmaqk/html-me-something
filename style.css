@@ -1,3 +1,10 @@
+body {
+    background-image: url(images/background.jpg), url(images/background2.jpg);
+    background-blend-mode: screen;
+    background-size: 102%;
+
+}
+
 #header {
     text-align: center;
 }
@@ -8,7 +15,7 @@
 }
 
 .line {
-    border-bottom: 4px dashed rgb(153, 178, 187, 0.8);
+    border-bottom: 4px dashed rgba(122, 143, 151, 0.8);
     display: block;
     margin: 0 auto;
     width: 80%
@@ -20,8 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(153, 178, 187, 0.3);
-    border-radius: 6px
+    background-color: rgb(153, 178, 187,0.60);
+    border-radius: 6px;
 }
 
 .title{
@@ -34,39 +41,82 @@
     padding: 20px;
 }
 
+.imgContainer{
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(62, 70, 73); 
+    border-radius: 6px;
+
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+  }
+
+.picText{
+    color: white;
+    font-family: "Didot", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
 #imgLeshan {
-    float: center;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
 }
 
 #imgSeoul {
-    float: center;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
 }
 
 #imgEgypt {
-    float: center;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
 }
 
 #imgPeru {
-    float: center;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
 }
 
 #imgAntelope {
-    float: center;
-    height: 50%;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
 }
 
 #footer {

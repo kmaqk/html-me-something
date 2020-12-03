@@ -2,40 +2,73 @@
     text-align: center;
 }
 
-#container {
-    margin: 10; 
-    border: 1px; 
-    float: left;
-    padding: 30px;
-    position: relative 
+.pageTitle{
+    font-family: "Didot", Times, serif;
+    font-weight: bolder;
+}
+
+.line {
+    border-bottom: 4px dashed rgb(153, 178, 187, 0.8);
+    display: block;
+    margin: 0 auto;
+    width: 80%
+}
+
+.container {
+    margin: 38px; 
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(153, 178, 187, 0.3);
+    border-radius: 6px
+}
+
+.title{
+    margin: 10px; 
+    padding: 20px;
+}
+
+.text{
+    margin: 10px; 
+    padding: 20px;
 }
 
 #imgLeshan {
-    float: left;
+    float: center;
     height: 50%;
     width: 50%;
+    padding: 10px;
 }
 
 #imgSeoul {
-    float: right;
+    float: center;
     height: 50%;
     width: 50%;
+    padding: 10px;
 }
 
 #imgEgypt {
-    float: left;
+    float: center;
     height: 50%;
     width: 50%;
+    padding: 10px;
 }
 
 #imgPeru {
-    float: right;
+    float: center;
     height: 50%;
     width: 50%;
+    padding: 10px;
 }
 
 #imgAntelope {
-    float: left;
+    float: center;
     height: 50%;
     width: 50%;
+    padding: 10px;
+}
+
+#footer {
+    text-align: center;
 }
